@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- colorPicker library -->
+    <script src="./scripts/kellycolorpicker.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
+    <title>Paint</title>
+</head>
+<body onresize=changeCanvasSize()>
+    <div class="row my-row1">
+        <div class="col-12 col-md-12 header"> 
+            <nav class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img class="navbar-brand" src="../paint/image/Cara de Berry.ico">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"> 
+                              <span class="sr-only">(current)</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="newDessin()"></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " id="download" download="dessin.png"  >
+                              <button type="button" onClick="download()">Descargar</button>
+                          </a>
+                          
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" onclick="undoo()"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#"  onclick="redoo()"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="newDessin()"></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-danger" type="submit">Reiniciar
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row my-row3">
+        <div class="col-11 col-md-8  palette">
+            <div class="tool" id="colors">
+                <!-- choisir couleur (colorPicker) -->
+                <canvas id="picker" ></canvas>
+                <br>
+                <input id="colorPick" value="#54aedb">
+            </div>
+            <div class="tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752975/images/rectangle1_is4qr8.png" onclick="rectangle()">
+            </div>
+            <div class=" tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752974/images/circle1_hslhc7.png" onclick="cercle()" >
+            </div>
+            <div class="tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752975/images/brush2_w1tt5z.png" onclick="ChangelineWidth(30)">
+            </div>
+            <div class="tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752975/images/pencil3_sbrj8y.png" onclick="ChangelineWidth(18)">
+            </div>
+            <div class="tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752975/images/pencil_fbuzqw.png" onclick="ChangelineWidth(6)">
+            </div>
+            <div class="tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752975/images/pencil1_kirpam.png"  onclick="ChangelineWidth(2)">
+            </div>
+            <div class="tool tool_hover">
+                <img src="https://res.cloudinary.com/sekour/image/upload/v1575752974/images/gomme1_c2omqo.png" id="gm" onclick="effacer()" >
+            </div>
+        </div>
+    </div> 
+    <div class="row my-row2"> 
+        <!--      espace de dessin -->
+        <div class="col-11 col-md-8 dessin" id="dessin">
+        </div>
+    </div>
+</div>
+<script>
+    var heightcanvas = document.getElementById('colors').offsetHeight;
+    new KellyColorPicker({place : 'picker', input : 'colorPick', size : heightcanvas});
+</script>
+
+<script type="text/javascript" src="./scripts/index.js"></script>
+<script type="text/javascript" src="./scripts/touchEvent.js"></script>
+<script type="text/javascript" src="./scripts/redo.js"></script>
+<script type="text/javascript" src="./scripts/resize.js"></script>
+<script type="text/javascript" src="./scripts/newDessin.js"></script>
+<script type="text/javascript" src="./scripts/download.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

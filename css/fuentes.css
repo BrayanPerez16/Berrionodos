@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Delicious;
+    src: url(../fuentes/Delicious.ttf);
+    font-family: VarelaRound-Regular;
+    src: url(/fuentes/VarelaRound-Regular.ttf);
+}
+
+/*eot*/
+@font-face {
+    font-family: Delicious;
+  src: url(../fuentes/Delicious.eot);
+    font-family: VarelaRound-Regular;
+    src: url(/fuentes/VarelaRound-Regular.eot);
+}
+
+/*oet*/
+/*otf*/
+@font-face {
+    font-family: Delicious;
+    src:url(../fuentes/Delicious.otf);
+    font-family: VarelaRound-Regular;
+    src: url(/fuentes/VarelaRound-Regular.otf);
+}
+
+/*otf*/
+
+@font-face {
+    font-family: 'Anja-Eliane';
+    src:url('/fuentes/Anja-Eliane.ttf.woff') format('woff'),
+        url('/fuentes/Anja-Eliane.ttf.svg#Anja-Eliane') format('svg'),
+        url('/fuentes/Anja-Eliane.ttf.eot'),
+        url('/fuentes/Anja-Eliane.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}

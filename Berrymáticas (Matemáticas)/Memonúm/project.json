@@ -1,0 +1,57 @@
+{
+  "title": "Memonúm",
+  "date": "3/05/21",
+  "description": {
+    "es": ""
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "memonum.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 4,
+  "mediaFiles": 41,
+  "totalSize": 6556688,
+  "files": [
+    "0i01-fondo_de_memonum-resized.jpg",
+    "1i01-fondo_de_memonum-resized.jpg",
+    "accion_correcta.wav",
+    "accion_incorrecta.wav",
+    "berry_finaaaaaaal.png",
+    "cero_final.png",
+    "cinco_final.png",
+    "click_en_un_objeto.wav",
+    "correcto_final.mp3",
+    "cuatro_final.png",
+    "diez_final.png",
+    "dos_final.png",
+    "favicon.ico",
+    "fondo_de_memonum-resized.jpg",
+    "i01-click_en_un_objeto.wav",
+    "i01-fondo_de_memonum-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "incorrecto_final.mp3",
+    "index.html",
+    "intro_del_juego.mp3",
+    "memonum.jclic",
+    "memonum.jclic.js",
+    "nivel-2.png",
+    "nivel-3.png",
+    "nivel_3.jpg",
+    "nueve_final.png",
+    "ocho_final.png",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "seis_final.png",
+    "siete_final.png",
+    "tres_final.png",
+    "uno_final.png"
+  ]
+}

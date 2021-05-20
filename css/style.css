@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h5 {
+    font-family: 'Delicious';
+}
+p{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.view {
+    height: 90%;
+}
+
+.spam {
+    background: url(../images/caratula_1.jpg) no-repeat center!important;
+    background-size: cover !important;
+    width: 100%;
+}
+
+.datos {
+    width: 100vh;
+    height: 750px;
+}
+
+.videos {
+    width: 100%;
+    height: 750px;
+}
+
+.juegos {
+    width: 100%;
+    height: 750px;
+}
+
+.posicion {
+    position: absolute;
+    top: 50%;
+}
+
+.tamaño {
+    width: 70%;
+}
+
+a {
+    font-family: Delicious;
+}
+
+.logo a {
+    font-family: Delicious;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+
+.a {
+    position: relative;
+    top: 6px;
+    text-decoration: none;
+    font-family: Delicious;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 5px;
+}
+
+.a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+}
+
+.a:hover {
+    color: grey;
+}
+
+.a:hover:after {
+    width: 100%;
+}
+
+.textoD {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+/*slider*/
+.wrapper {
+    width: 95%;
+}
+
+.carousel {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel .card {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel .card img {
+    border-radius: 10px;
+    background: #fff;
+    height: 245px;
+}
+
+.carousel .card-1 {
+    background: #f79d4f;
+    height: 400px;
+}
+
+.carousel .card-2 {
+    background: #3498DB;
+    height: 400px;
+}
+
+.carousel .card-3 {
+    background: #ffbb01;
+    height: 400px;
+}
+
+.carousel .card-4 {
+    background: #e73134;
+    height: 400px;
+}
+
+.carousel .card-5 {
+    background: #4eaf4f;
+    height: 400px;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.owl-dot {
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #000 !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: #fff !important;
+}
+
+.cartas {
+    position: absolute;
+    top: 25%;
+}
+
+.cartasJ {
+    position: absolute;
+    top: 20%;
+}
+
+
+/*botones slider*/
+.boton {
+    width: 35%;
+    bottom: 10px;
+    left: 30%;
+    font-family: Delicious;
+    font-size: 19px;
+    border-radius: 10px;
+    border: 1px #fff solid;
+    margin: 2%;
+}
+
+.texto {
+    margin-top: 30px;
+}
+
+section {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background: #fff;
+    box-shadow: 0 0 0.9375cm rgba(0, 0, 0, 0.239);
+    width: 900px;
+    border-radius: 20px;
+
+    display: flex;
+}
+
+.tarjeta .forma {
+    flex: 0 0 50%;
+    position: relative;
+}
+
+.tarjeta .tarjeta_i {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.tarjeta .tarjeta_c {
+    flex: 1;
+    padding: 35px 35px 25px 35px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta_info {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: auto;
+}
+
+.tarjeta_T {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.tarjeta_es {
+    font-size: 12.5px;
+    font-weight: 400;
+}
+
+.tarjeta_boton {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tarjeta_btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    font-family: Delicious;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+
+    transition: border-botton .4s;
+}
+
+.tarjeta_btn:hover {
+    border-bottom: 1px solid #2CBF4C;
+}
+
+.tarjeta_btn:not(:last-child) {
+    margin-right: 100px;
+}
+
+.boton_f {
+    border-radius: 30px;
+}

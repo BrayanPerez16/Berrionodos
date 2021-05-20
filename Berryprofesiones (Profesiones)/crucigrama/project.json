@@ -1,0 +1,36 @@
+{
+  "title": "crucigrama profesiones ingles",
+  "date": "7/05/21",
+  "description": {},
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc/4.0\">BY-NC<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "mainFile": "crucigrama_profesiones_ingles.jclic",
+  "activities": 2,
+  "mediaFiles": 12,
+  "totalSize": 288985,
+  "files": [
+    "crucigrama_profesiones_ingles.jclic",
+    "crucigrama_profesiones_ingles.jclic.js",
+    "favicon-crucigrama_profesiones_ingles.ico",
+    "favicon.ico",
+    "fondo_de_profesiones_cambiado_xd-resized-crucigrama_profesiones_ingles.jpg",
+    "fondo_de_profesiones_cambiado_xd-resized.jpg",
+    "icon-192-crucigrama_profesiones_ingles.png",
+    "icon-192.png",
+    "icon-72-crucigrama_profesiones_ingles.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover-crucigrama_profesiones_ingles.jpg",
+    "project-cover.jpg",
+    "project-thumb-crucigrama_profesiones_ingles.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}

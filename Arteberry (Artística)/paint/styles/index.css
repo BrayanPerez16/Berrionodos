@@ -1,0 +1,183 @@
+body {
+color:black;
+background-color:white;
+background-image:url(../image/fondo.png) ;
+background-repeat:no-repeat;
+margin: 30 px;
+overflow-x:  hidden;
+}
+#download button {
+  background-color: transparent;
+    padding: 0px;
+    border: 0px;
+    color: rgba(255,255,255,.8);
+}
+.nav-link {
+  color: rgba(255,255,255,.8) !important;
+}
+.dessin {
+  height: 6 00px;
+ margin: 0 auto;
+ padding: 0px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-grow: 1;
+  background-color:white;
+}
+.header nav {
+  width: 100%;
+  height: 100%; 
+  opacity: 0.8;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 0px;
+}
+.header img {
+  max-height: 90px;
+}
+#navbarTogglerDemo03 {
+  background-color: #3a3939;
+}
+#navbarTogglerDemo03 form {
+  margin-right : 30px;
+}
+
+.palette {
+  height: 90px;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  flex-grow: 1;
+  background-color: #1C1A1A;
+  opacity: 0.8;
+  justify-content: space-between;
+}
+.right-block {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  padding: 0px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.tool img{
+  position: absolute;
+  height: 55%;
+}
+.tool_hover :hover{
+  transform: scale(1.4);
+}
+.tool  {
+  height: 90px;
+  margin-top:20px;
+  position: relative;
+  transition: transform .2s;
+  flex-basis: 12vw;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.my-container {
+
+	border: 1px solid green;
+}
+
+.my-row1 {
+
+  height: 90px;
+  margin-bottom: 50px;
+
+}
+
+.my-row3 {
+
+	height: 100px;
+
+}
+.my-row2 {
+
+  height: 500px;
+	
+}
+.my-col {
+
+	border: 3x solid blue;
+}
+.my-col1{
+  height: 200px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.my-col1 {
+  background-color: #ece8e8;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+
+.my-col1 button {
+  display: inline-block;
+  border: 1px solid #00000026;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px
+}
+
+.my-col1 button:nth-of-type(1) {
+  background-color: #0000ff;
+}
+
+.color :nth-of-type(2) {
+  background-color: #009fff;
+}
+
+
+.color{
+  display: inline-block;
+  border: 1px solid #00000026;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+ 
+  margin-bottom: 5px
+}
+
+
+.color :hover{
+  transform: scale(1.4);
+}
+
+#colorPick {
+  display: none;
+}
+#colors{
+  margin-top: 0px;
+}
+footer{
+  margin-top : 50px;
+  background-color: #1C1A1A;
+  opacity: 0.95;
+}
+footer a :hover{
+  color : white;
+}
+footer a {
+  margin-left : 10px;
+  margin-right : 10px;
+  color :#00b3dc;
+}
+

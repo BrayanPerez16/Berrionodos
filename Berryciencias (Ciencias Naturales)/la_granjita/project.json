@@ -1,0 +1,44 @@
+{
+  "title": "La Granjita",
+  "date": "11/05/21",
+  "description": {},
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "la_granjita.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 2,
+  "mediaFiles": 20,
+  "totalSize": 3955276,
+  "files": [
+    "accion_correcta-la_granjita.wav",
+    "accion_correcta.wav",
+    "accion_incorrecta-la_granjita.wav",
+    "accion_incorrecta.wav",
+    "click_en_un_objeto-la_granjita.wav",
+    "click_en_un_objeto.wav",
+    "correcto_final-la_granjita.mp3",
+    "correcto_final.mp3",
+    "favicon-la_granjita.ico",
+    "favicon.ico",
+    "fondo_sopa_de_letreas1_mesa_de_trabajo_1.png",
+    "fondo_sopa_de_letreas2_mesa_de_trabajo_1_mesa_de_trabajo_1.png",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "incorrecto_final-la_granjita.mp3",
+    "incorrecto_final.mp3",
+    "index.html",
+    "intro_del_juego-la_granjita.mp3",
+    "intro_del_juego.mp3",
+    "la_granjita.jclic",
+    "la_granjita.jclic.js",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
